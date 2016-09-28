@@ -1,0 +1,16 @@
+{
+  "name": "is-auto-orienting",
+  "version": "1.0.0",
+  "description": "Feature detect whether the current browser is using the EXIF orientation when showing images",
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy demo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^13.1.0"
+  }
+}
