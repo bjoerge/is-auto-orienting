@@ -8,9 +8,21 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "beefy": "^2.1.8",
     "browserify": "^13.1.0"
-  }
+  },
+  "dependencies": {
+    "beefy": "^2.1.8",
+    "browserify": "^13.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjoerge/is-auto-orienting.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bjoerge/is-auto-orienting/issues"
+  },
+  "homepage": "https://github.com/bjoerge/is-auto-orienting#readme"
 }

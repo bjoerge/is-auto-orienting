@@ -4,7 +4,17 @@ Feature detect whether the current browser is using the EXIF orientation when sh
 
 ## Usage
 
-```
-var is-using-orientation
+```js
+import isAutoOrienting from 'is-auto-orienting'
 
+isAutoOrienting().then(result => {
+  if (result) {
+    console.log('This browser is automatically orienting images')
+  } else {
+    console.log('This browser is NOT automatically orienting images')
+  }
+})
 ```
+
+## Licence
+MIT
